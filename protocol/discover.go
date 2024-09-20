@@ -16,10 +16,10 @@ import (
 // DiscoverCmd represents the read command
 var DiscoverCmd = &cobra.Command{
 	Use:   "discover",
-	Short: "discover command",
+	Short: "discover command trigger",
 	PreRunE: func(cmd *cobra.Command, args []string) error {
 		if config_ == "" {
-			return fmt.Errorf("--config not passed")
+			return fmt.Errorf("--config not passed ready")
 		} else {
 			if err := utils.UnmarshalFile(config_, _rawConnector.Config()); err != nil {
 				return err

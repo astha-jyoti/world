@@ -2,6 +2,8 @@
 
 Gear5 is a new data integration protocol and specification, written in Golang, that aims to provide an alternative to existing solutions such as Airbyte, Meltano, and Singer-io. It focuses on simplicity, performance, and extensibility to enable seamless data integration between various systems and applications.
 
+I've Cloned this
+
 ## Roadmap
 - [ ] Postgres
   - [ ] Incremental Support
